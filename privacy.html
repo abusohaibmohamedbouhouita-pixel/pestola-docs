@@ -2,17 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - PestolaBot</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; color: #333; background: #f4f4f9; }
-        h1 { color: #2c3e50; }
-        .container { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #ffffff;
+            /* خلفية بنفسجية مع خطوط سوداء تقنية */
+            background-color: #1a0b2e;
+            background-image: 
+                linear-gradient(135deg, rgba(0, 0, 0, 0.8) 25%, transparent 25%), 
+                linear-gradient(225deg, rgba(0, 0, 0, 0.8) 25%, transparent 25%), 
+                linear-gradient(45deg, rgba(0, 0, 0, 0.8) 25%, transparent 25%), 
+                linear-gradient(315deg, rgba(0, 0, 0, 0.8) 25%, #1a0b2e 25%),
+                radial-gradient(circle at 50% 50%, #4a154b 0%, #11052c 100%);
+            background-position: 20px 0, 20px 0, 0 0, 0 0;
+            background-size: 40px 40px, 40px 40px, 40px 40px, 40px 40px, 100% 100%;
+            background-attachment: fixed;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            /* تأثير الصندوق الداكن المضبب */
+            background: rgba(25, 18, 38, 0.65);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 8px;
+            color: #ffffff;
+            font-weight: 700;
+        }
+        .updated {
+            color: #b9bbbe;
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+        p {
+            color: #dcddde;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-size: 1rem;
+        }
+        h2 {
+            font-size: 1.3rem;
+            color: #ffffff;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Privacy Policy for PestolaBot</h1>
-        <p>Last updated: November 2026</p>
+        <div class="updated">Last updated: November 2026</div>
+        
         <p>PestolaBot ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and disclosed by PestolaBot.</p>
         
         <h2>1. Information We Collect</h2>
